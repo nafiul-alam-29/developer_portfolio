@@ -207,4 +207,48 @@ main {
 .resume-btn {
   margin-top: 50px;
   text-align: center;
+  margin-bottom: 100px;
+}
+
+/* let's conncect style  */
+
+.connect {
+  display: flex;
+  gap: 100px;
+  background-color: #fff8f3;
+  padding: 130px 200px;
+}
+
+.conncet-des {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  color: #757575;
+}
+
+.conncet-title {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.connect input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+  border-radius: 5px;
+}
+
+input {
+  height: 64px;
+}
+
+a {
+  margin-top: 30px;
+  text-decoration: none;
 }
